@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.38b0a35f.chunk.css",
+    "main.js": "/portfolio/static/js/main.7262c962.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7262c962.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2ea5e215.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2ea5e215.js.map",
+    "static/js/2.e57a3926.chunk.js": "/portfolio/static/js/2.e57a3926.chunk.js",
+    "static/js/2.e57a3926.chunk.js.map": "/portfolio/static/js/2.e57a3926.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.8a6d4a180ea5ebf89a4b29ba193685e0.js": "/portfolio/precache-manifest.8a6d4a180ea5ebf89a4b29ba193685e0.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.38b0a35f.chunk.css.map": "/portfolio/static/css/main.38b0a35f.chunk.css.map",
+    "static/js/2.e57a3926.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e57a3926.chunk.js.LICENSE.txt",
+    "static/media/gitsearch.png": "/portfolio/static/media/gitsearch.ea292113.png",
+    "static/media/logon.png": "/portfolio/static/media/logon.f5512e46.png",
+    "static/media/pedra-papel-tesoura.png": "/portfolio/static/media/pedra-papel-tesoura.07a22ba6.png",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.860be469.jpg",
+    "static/media/sobre.jpg": "/portfolio/static/media/sobre.847f9b48.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ea5e215.js",
+    "static/js/2.e57a3926.chunk.js",
+    "static/css/main.38b0a35f.chunk.css",
+    "static/js/main.7262c962.chunk.js"
+  ]
+}

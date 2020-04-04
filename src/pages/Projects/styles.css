@@ -1,0 +1,36 @@
+.projects-container {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-content-container {
+    padding: 32px 64px;
+    width: 80vw;
+    height: 100vh;
+}
+
+.project-tiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Laptop L DOWN */
+@media (max-width: 1439px) {
+    .project-tiles {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1023px) {
+    .project-tiles {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .projects-content-container {
+        width: 100vw;
+        padding: 32px;
+        padding-top: 200px;
+    }
+}

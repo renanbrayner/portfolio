@@ -7,6 +7,7 @@ import ProjectTile from '../../components/ProjectTile';
 import imgUrl from '../../assets/logon.png';
 import gitSearchImg from '../../assets/gitsearch.png';
 import pedraPapelTesouraImg from '../../assets/pedra-papel-tesoura.png';
+import jogoDaVelhaImg from '../../assets/jogo-da-velha.png';
 
 function Projects() {
     return(
@@ -32,11 +33,19 @@ function Projects() {
                         siteTxt='Site'
                     />
                     <ProjectTile
+                        imgUrl={jogoDaVelhaImg}
+                        title='Jogo da velha'
+                        description='Jogo da velha do tutorial encontrado na página do proprio react, mas usando react hooks.'
+                        repository='https://github.com/renanbrayner/jogo-da-velha'
+                        site='https://renanbrayner.github.io/jogo-da-velha/'
+                        siteTxt='Site'
+                    />
+                    <ProjectTile
                         imgUrl={pedraPapelTesouraImg}
                         title='Pedra Papel Tesoura'
                         description='Jogo de pedra, papel e tesoura feito com JavaScript e Css vannila.'
-                        repository=''
-                        site='#'
+                        repository='https://github.com/renanbrayner/pedraPapelETesoura'
+                        site='https://renanbrayner.github.io/pedraPapelETesoura/'
                         siteTxt='Site'
                     />
                 </div>

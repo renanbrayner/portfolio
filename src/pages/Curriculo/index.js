@@ -15,7 +15,7 @@ function Curriculo() {
                 <NavBar/>
                 <object className="pdf" type="application/pdf" aria-labelledby="Meu curriculo." data={pdfData}></object>
                 <p className='mobile'>Ops, parece que o seu disposivito não tem suporta vizualização de pdf, <a href={pdfData} download>Clique aqui para baixar o curriculo</a></p>
-                <a className='download' href={pdfData} download>Baixar o currículo <FiDownload/></a>
+                <a className='download' href={pdfData} download>Baixar currículo <FiDownload/></a>
             </div>
         </div>
     );

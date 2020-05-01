@@ -9,6 +9,7 @@ import gitSearchImg from '../../assets/gitsearch.png';
 import pedraPapelTesouraImg from '../../assets/pedra-papel-tesoura.png';
 import jogoDaVelhaImg from '../../assets/jogo-da-velha.png';
 import todoImg from '../../assets/todo.png';
+import borderRadiusImg from '../../assets/borderradius.png';
 
 function Projects() {
     return(
@@ -20,18 +21,26 @@ function Projects() {
                     <ProjectTile
                         imgUrl={imgUrl}
                         title='Be The Hero'
-                        description='Projeto resultante da Semana Omnistack #11. Feito com ReactJs, React Native e Nodejs.'
+                        description='Projeto resultante da Semana Omnistack #11. Feito com ReactJs, React Native e NodeJS.'
                         repository='https://github.com/renanbrayner/Be-The-Hero'
                         site='#'
                         siteTxt=''
                     />
                     <ProjectTile
-                        imgUrl={gitSearchImg}
-                        title='GitSearch'
-                        description='React app que usa a api do github para buscar usuários.'
-                        repository='https://github.com/renanbrayner/gitsearch'
-                        site='https://renanbrayner.github.io/gitsearch/'
+                        imgUrl={borderRadiusImg}
+                        title='Border Radius Previewer'
+                        description='Site feito com ReactJS para vizualização de border-radius.'
+                        repository='https://github.com/renanbrayner/borderradiuspreview'
+                        site='https://renanbrayner.github.io/borderradiuspreview'
                         siteTxt='Site'
+                    />
+                    <ProjectTile
+                        imgUrl={todoImg}
+                        title='ToDo'
+                        description='Lista de fazeres feita com ReactJS, React Native, NodeJS e banco de dados mongoDB.'
+                        repository='https://github.com/renanbrayner/Todo'
+                        site='#'
+                        siteTxt=''
                     />
                     <ProjectTile
                         imgUrl={jogoDaVelhaImg}
@@ -42,12 +51,12 @@ function Projects() {
                         siteTxt='Site'
                     />
                     <ProjectTile
-                        imgUrl={todoImg}
-                        title='ToDo'
-                        description='Lista de fazeres feita com ReactJS, React Native, NodeJS e banco de dados mongoDB.'
-                        repository='https://github.com/renanbrayner/Todo'
-                        site='#'
-                        siteTxt=''
+                        imgUrl={gitSearchImg}
+                        title='GitSearch'
+                        description='React app que usa a api do github para buscar usuários.'
+                        repository='https://github.com/renanbrayner/gitsearch'
+                        site='https://renanbrayner.github.io/gitsearch/'
+                        siteTxt='Site'
                     />
                     <ProjectTile
                         imgUrl={pedraPapelTesouraImg}

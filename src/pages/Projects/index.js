@@ -10,6 +10,7 @@ import pedraPapelTesouraImg from '../../assets/pedra-papel-tesoura.png';
 import jogoDaVelhaImg from '../../assets/jogo-da-velha.png';
 import todoImg from '../../assets/todo.png';
 import borderRadiusImg from '../../assets/borderradius.png';
+import sorteadorImg from '../../assets/sorteador.png';
 
 function Projects() {
     return(
@@ -48,6 +49,14 @@ function Projects() {
                         description='Jogo da velha do tutorial encontrado na página do proprio react, mas usando react hooks.'
                         repository='https://github.com/renanbrayner/jogo-da-velha'
                         site='https://renanbrayner.github.io/jogo-da-velha/'
+                        siteTxt='Site'
+                    />
+                    <ProjectTile
+                        imgUrl={sorteadorImg}
+                        title='Sorteador'
+                        description='Sorteador com opções customizáveis.'
+                        repository='https://github.com/renanbrayner/sorteador'
+                        site='https://renanbrayner.github.io/sorteador/'
                         siteTxt='Site'
                     />
                     <ProjectTile

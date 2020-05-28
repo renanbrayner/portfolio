@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f9116498.chunk.css",
-    "main.js": "/portfolio/static/js/main.8fd465ee.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8fd465ee.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.1097d862.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1097d862.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2ea5e215.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.2ea5e215.js.map",
-    "static/js/2.8bf83c1b.chunk.js": "/portfolio/static/js/2.8bf83c1b.chunk.js",
-    "static/js/2.8bf83c1b.chunk.js.map": "/portfolio/static/js/2.8bf83c1b.chunk.js.map",
+    "static/js/2.d8b3f25e.chunk.js": "/portfolio/static/js/2.d8b3f25e.chunk.js",
+    "static/js/2.d8b3f25e.chunk.js.map": "/portfolio/static/js/2.d8b3f25e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.877e5f5ec2a9bc3539a7dda409dedab9.js": "/portfolio/precache-manifest.877e5f5ec2a9bc3539a7dda409dedab9.js",
+    "precache-manifest.090f23f33a29b46b5a971ed1364ec9be.js": "/portfolio/precache-manifest.090f23f33a29b46b5a971ed1364ec9be.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.f9116498.chunk.css.map": "/portfolio/static/css/main.f9116498.chunk.css.map",
-    "static/js/2.8bf83c1b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8bf83c1b.chunk.js.LICENSE.txt",
+    "static/js/2.d8b3f25e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d8b3f25e.chunk.js.LICENSE.txt",
     "static/media/borderradius.png": "/portfolio/static/media/borderradius.dec5e500.png",
+    "static/media/cats.png": "/portfolio/static/media/cats.b1902321.png",
     "static/media/gitsearch.png": "/portfolio/static/media/gitsearch.ea292113.png",
     "static/media/jogo-da-velha.png": "/portfolio/static/media/jogo-da-velha.0fa1b276.png",
     "static/media/logon.png": "/portfolio/static/media/logon.f5512e46.png",
     "static/media/pedra-papel-tesoura.png": "/portfolio/static/media/pedra-papel-tesoura.07a22ba6.png",
+    "static/media/placar.png": "/portfolio/static/media/placar.d5d3ee28.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.860be469.jpg",
     "static/media/sobre.jpg": "/portfolio/static/media/sobre.847f9b48.jpg",
     "static/media/sorteador.png": "/portfolio/static/media/sorteador.0c8f9d38.png",
@@ -24,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2ea5e215.js",
-    "static/js/2.8bf83c1b.chunk.js",
+    "static/js/2.d8b3f25e.chunk.js",
     "static/css/main.f9116498.chunk.css",
-    "static/js/main.8fd465ee.chunk.js"
+    "static/js/main.1097d862.chunk.js"
   ]
 }

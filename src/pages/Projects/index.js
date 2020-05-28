@@ -11,6 +11,8 @@ import jogoDaVelhaImg from '../../assets/jogo-da-velha.png';
 import todoImg from '../../assets/todo.png';
 import borderRadiusImg from '../../assets/borderradius.png';
 import sorteadorImg from '../../assets/sorteador.png';
+import catsImg from '../../assets/cats.png';
+import placarImg from '../../assets/placar.png';
 
 function Projects() {
     return(
@@ -42,6 +44,22 @@ function Projects() {
                         repository='https://github.com/renanbrayner/Todo'
                         site='#'
                         siteTxt=''
+                    />
+                    <ProjectTile
+                        imgUrl={catsImg}
+                        title='CATS!'
+                        description='Site feito com Svelte que consome uma api de fatos e outra de fotos de gato.'
+                        repository='https://github.com/renanbrayner/cats'
+                        site='https://randomcats.netlify.app/'
+                        siteTxt='Site'
+                    />
+                    <ProjectTile
+                        imgUrl={placarImg}
+                        title='Placar'
+                        description='Placar feito com Svelte.'
+                        repository='https://github.com/renanbrayner/placar'
+                        site='https://placar-competicao.netlify.app/'
+                        siteTxt='Site'
                     />
                     <ProjectTile
                         imgUrl={jogoDaVelhaImg}
